@@ -63,3 +63,9 @@ li {
   border-radius: 0.33rem; /* Add border-radius to give a curved edge around the border */
   padding: 0.5rem;
 }
+
+.menu a:hover {
+  color: rgb(43, 43, 43);
+  border-left: 1px solid black;
+  padding: 0.25rem;
+}
