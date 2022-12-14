@@ -43,23 +43,26 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
-  width: 70%; /* Set the width of the element to 70% of the view */
+  width: 80%; /* Set the width of the element to 70% of the view */
   margin: 0 auto; /* Center the element horizontally */
 }
 
 h1 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 20px 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 20px 0;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: rgb(243, 147, 4);
-}
-
-li {
-  list-style: none;
 }
 
 table {
@@ -88,7 +91,6 @@ td {
   color: #666;
   text-align: left;
   padding: 8px;
-  border: 1px solid #ccc;
 }
 
 .course-table tr:nth-child(odd) {
